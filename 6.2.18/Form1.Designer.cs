@@ -59,6 +59,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 2;
+            this.button1.Text = "Enter";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -68,7 +69,6 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 3;
-
             // 
             // textBox3
             // 
@@ -76,7 +76,6 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(100, 20);
             this.textBox3.TabIndex = 4;
-
             // 
             // label2
             // 
@@ -86,7 +85,6 @@
             this.label2.Size = new System.Drawing.Size(142, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Значение 2 для сравнения";
-
             // 
             // label3
             // 
@@ -110,7 +108,8 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
-            this.Text = "6.2.18";
+            this.Text = "6.1.18";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

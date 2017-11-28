@@ -56,6 +56,7 @@
             this.button8118.Name = "button8118";
             this.button8118.Size = new System.Drawing.Size(75, 23);
             this.button8118.TabIndex = 2;
+            this.button8118.Text = "Enter";
             this.button8118.UseVisualStyleBackColor = true;
             this.button8118.Click += new System.EventHandler(this.button8118_Click);
             // 

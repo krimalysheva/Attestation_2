@@ -97,7 +97,7 @@
             this.CalculateButton.Name = "CalculateButton";
             this.CalculateButton.Size = new System.Drawing.Size(262, 72);
             this.CalculateButton.TabIndex = 6;
-            this.CalculateButton.Text = "Вычислить";
+            this.CalculateButton.Text = "Enter";
             this.CalculateButton.UseVisualStyleBackColor = true;
             this.CalculateButton.Click += new System.EventHandler(this.CalculateButton_Click);
             // 

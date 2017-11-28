@@ -16,11 +16,13 @@ namespace ProgramLogic
         }
         public bool CheckArifmeticts()
         {
-            List.Sort();
+            List<int> resultList = new List<int>(List);
+
+            resultList.Sort();
 
             for (int i = 2; i < List.Count; i++)
             {
-                if (List[i] - List[i - 1] != List[i - 1] - List[i - 2])
+                if (resultList[i] - resultList[i - 1] != resultList[i - 1] - resultList[i - 2])
                     return false;
             }
 

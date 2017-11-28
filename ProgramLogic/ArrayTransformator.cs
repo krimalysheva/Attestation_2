@@ -61,7 +61,7 @@ namespace ProgramLogic
 
             return resultArr.Take(freeIndex).ToArray();
         }
-        public void FindSubMaxSequence(int[] Arr, out int maxLength, out int firstIndex)
+        public void FindSubMaxSequence(out int maxLength, out int firstIndex)
         {
             maxLength = 1; //если массив пустой, то брось исключение
             firstIndex = 0;

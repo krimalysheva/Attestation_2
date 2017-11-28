@@ -31,7 +31,7 @@ namespace Sequence1
                 string answer = "";
                 int outfirstIndex;
                 int outarrayLenght;
-                ts.FindSubMaxSequence(sourceArray, out outarrayLenght, out outfirstIndex);
+                ts.FindSubMaxSequence(out outarrayLenght, out outfirstIndex);
 
                 answer += "Позиция первого элемента : " + outfirstIndex + Environment.NewLine;
 

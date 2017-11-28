@@ -55,18 +55,5 @@ namespace ProgramLogic
 
             return sum;
         }
-
-        /**public void Test()
-        {
-            double x = 10;
-            double e = 0.5;
-            int n = 100;
-
-            Calculator calc = new Calculator(x);
-            calc.CalculateFunctionDirectly(); // Вычислим прямое значение
-            calc.CalculateFunctionApproximately(n, 0);
-            calc.CalculateFunctionApproximately(n, e);
-            calc.CalculateFunctionApproximately(n, e/10);
-        }*/
     }
 }
