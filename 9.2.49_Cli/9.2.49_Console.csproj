@@ -4,15 +4,16 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{64D923FB-B8B4-4DB6-9367-C3E7112FC1F2}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>ConsoleUtils</RootNamespace>
-    <AssemblyName>ConsoleUtils</AssemblyName>
+    <ProjectGuid>{FA5D788A-4789-4E63-83A4-98724C8637FE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_20._9._20_Cli</RootNamespace>
+    <AssemblyName>20.9.20_Cli</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +23,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -40,14 +42,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CommandLine.cs" />
-    <Compile Include="ConsoleMatrix.cs" />
-    <Compile Include="IOUtils.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConsoleUtils\ConsoleUtils.csproj">
+      <Project>{64d923fb-b8b4-4db6-9367-c3e7112fc1f2}</Project>
+      <Name>ConsoleUtils</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ProgramLogic\ProgramLogic.csproj">
-      <Project>{72f0a130-7e92-4942-b78e-b5f95d2f64c6}</Project>
+      <Project>{2692f8e8-a534-449b-ac49-ef78bcc1f8d9}</Project>
       <Name>ProgramLogic</Name>
     </ProjectReference>
   </ItemGroup>

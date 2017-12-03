@@ -11,9 +11,9 @@ using ProgramLogic;
 
 namespace Test2
 {
-    public partial class Form1 : Form
+    public partial class Ex2 : Form
     {
-        public Form1()
+        public Ex2()
         {
             InitializeComponent();
         }

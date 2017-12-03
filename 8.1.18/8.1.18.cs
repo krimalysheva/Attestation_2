@@ -12,9 +12,9 @@ using ProgramLogic;
 
 namespace Classist
 {
-    public partial class Form1 : Form
+    public partial class Ex5 : Form
     {
-        public Form1()
+        public Ex5()
         {
             InitializeComponent();
         }

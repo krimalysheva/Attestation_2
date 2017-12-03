@@ -12,9 +12,9 @@ using Sequence1;
 
 namespace Sequence1
 {
-    public partial class Form2 : Form
+    public partial class Ex4 : Form
     {
-        public Form2()
+        public Ex4()
         {
             InitializeComponent();
         }

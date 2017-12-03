@@ -45,6 +45,7 @@
     <Compile Include="ClassList.cs" />
     <Compile Include="ConvertUtils.cs" />
     <Compile Include="FileUtils.cs" />
+    <Compile Include="MatrixUtils.cs" />
     <Compile Include="StringAB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

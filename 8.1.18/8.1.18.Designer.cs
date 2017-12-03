@@ -1,6 +1,6 @@
 ﻿namespace Classist
 {
-    partial class Form1
+    partial class Ex5
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -69,7 +69,7 @@
             this.labelOut.TabIndex = 3;
             this.labelOut.Text = ":";
             // 
-            // Form1
+            // Ex5
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -78,7 +78,7 @@
             this.Controls.Add(this.button8118);
             this.Controls.Add(this.textBox1Progress);
             this.Controls.Add(this.label1input);
-            this.Name = "Form1";
+            this.Name = "Ex5";
             this.Text = "8.1.18";
             this.ResumeLayout(false);
             this.PerformLayout();

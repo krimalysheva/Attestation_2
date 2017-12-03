@@ -4,9 +4,9 @@ using ProgramLogic;
 
 namespace Sequence1
 {
-    public partial class Form1 : Form
+    public partial class Ex3 : Form
     {
-        public Form1()
+        public Ex3()
         {
             InitializeComponent();
         }

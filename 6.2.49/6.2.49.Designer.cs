@@ -1,6 +1,6 @@
 ﻿namespace Test2
 {
-    partial class Form1
+    partial class Ex2
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -111,7 +111,7 @@
             this.OutputBlock.TextAlign = System.Drawing.ContentAlignment.TopRight;
             this.OutputBlock.Click += new System.EventHandler(this.label4_Click);
             // 
-            // Form1
+            // Ex2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -124,7 +124,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.InputX);
             this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Name = "Ex2";
             this.Text = "6.2.49";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
