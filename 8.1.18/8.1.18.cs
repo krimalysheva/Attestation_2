@@ -29,7 +29,7 @@ namespace Classist
                 if (mylist.Count == 0)
                     throw new Exception("Неверный формат данных! Введите массив");
 
-                ClassList ts = new ClassList(mylist);
+                ListUtils ts = new ListUtils(mylist);
 
                 string answer = "";
                 answer += "Ваша прогрессия:" + ts.CheckArifmeticts();

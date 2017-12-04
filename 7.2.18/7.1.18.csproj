@@ -82,9 +82,9 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProgramLogic\ProgramLogic.csproj">
+    <ProjectReference Include="..\ProgramLogic\ProgramLogicUtils.csproj">
       <Project>{2692f8e8-a534-449b-ac49-ef78bcc1f8d9}</Project>
-      <Name>ProgramLogic</Name>
+      <Name>ProgramLogicUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -11,11 +11,11 @@ namespace ProgramLogic
         Increase, Decrease
     }
 
-    public class ArrayTransformator
+    public class ArrayTransformatorUtils
     {
         public int[] Arr;
 
-        public ArrayTransformator(int[] sourceArr)
+        public ArrayTransformatorUtils(int[] sourceArr)
         {
             this.Arr = sourceArr;
         }

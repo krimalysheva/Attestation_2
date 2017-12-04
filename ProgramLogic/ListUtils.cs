@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace ProgramLogic
 {
-  public  class ClassList
+  public  class ListUtils
     {
         public List<int> List { get; set; }
 
-        public ClassList(List<int> namelist)
+        public ListUtils(List<int> namelist)
         {
             this.List = namelist;
         }

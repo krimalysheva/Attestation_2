@@ -25,7 +25,7 @@ namespace Sequence1
             {
                 // Читаем массив из формы
                 int[] sourceArray = ConvertUtils.StrToArray<int>(this.textBox1.Text);
-                ArrayTransformator ts = new ArrayTransformator(sourceArray);
+                ArrayTransformatorUtils ts = new ArrayTransformatorUtils(sourceArray);
 
                 // Составляем ответ
                 string answer = "";

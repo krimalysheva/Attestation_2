@@ -21,7 +21,7 @@ namespace Sequence1
                 if (sourceArray.Length == 0)
                     throw new Exception("Введите массив");
 
-                ArrayTransformator ts = new ArrayTransformator(sourceArray);
+                ArrayTransformatorUtils ts = new ArrayTransformatorUtils(sourceArray);
                 // Составляем ответ
                 string answer = "";
 

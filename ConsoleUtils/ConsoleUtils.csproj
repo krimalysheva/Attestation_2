@@ -41,14 +41,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CommandLine.cs" />
-    <Compile Include="ConsoleMatrix.cs" />
     <Compile Include="IOUtils.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ProgramLogic\ProgramLogic.csproj">
-      <Project>{72f0a130-7e92-4942-b78e-b5f95d2f64c6}</Project>
-      <Name>ProgramLogic</Name>
+    <ProjectReference Include="..\ProgramLogic\ProgramLogicUtils.csproj">
+      <Project>{2692F8E8-A534-449B-AC49-EF78BCC1F8D9}</Project>
+      <Name>ProgramLogicUtils</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
